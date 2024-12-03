@@ -1,0 +1,134 @@
+[
+  {
+    "title": "A building of exceptional value.....",
+    "author": "Maria Gregoriou",
+    "timeAgo": "34m ago",
+    "status": "Completed",
+    "image": "trending.png",
+    "location": {
+      "latitude": 37.9838,
+      "longitude": 23.7275
+    }
+  },
+  {
+    "title": "Historical monument preservation",
+    "author": "John Doe",
+    "timeAgo": "2h ago",
+    "status": "In Progress",
+    "image": "trending.png",
+    "location": {
+      "latitude": 37.9715,
+      "longitude": 23.7257
+    }
+  },
+  {
+    "title": "Modern architectural wonder",
+    "author": "Alexandra Smith",
+    "timeAgo": "1d ago",
+    "status": "New",
+    "image": "trending.png",
+    "location": {
+      "latitude": 37.9667,
+      "longitude": 23.7167
+    }
+  },
+  {
+    "title": "Eco-friendly park redevelopment",
+    "author": "Elena Papadopoulos",
+    "timeAgo": "3d ago",
+    "status": "Completed",
+    "image": "trending.png",
+    "location": {
+      "latitude": 37.9848,
+      "longitude": 23.7278
+    }
+  },
+  {
+    "title": "Urban green roof initiative",
+    "author": "Nikos Ioannidis",
+    "timeAgo": "5d ago",
+    "status": "In Progress",
+    "image": "trending.png",
+    "location": {
+      "latitude": 37.9753,
+      "longitude": 23.7321
+    }
+  },
+  {
+    "title": "New pedestrian walkway",
+    "author": "Sophia Koulis",
+    "timeAgo": "1w ago",
+    "status": "New",
+    "image": "trending.png",
+    "location": {
+      "latitude": 37.9820,
+      "longitude": 23.7350
+    }
+  },
+  {
+    "title": "Restoration of historical gardens",
+    "author": "George Papas",
+    "timeAgo": "2w ago",
+    "status": "Completed",
+    "image": "trending.png",
+    "location": {
+      "latitude": 37.9835,
+      "longitude": 23.7347
+    }
+  },
+  {
+    "title": "Bicycle sharing system expansion",
+    "author": "Irene Laskaridou",
+    "timeAgo": "2d ago",
+    "status": "In Progress",
+    "image": "trending.png",
+    "location": {
+      "latitude": 37.9652,
+      "longitude": 23.7260
+    }
+  },
+  {
+    "title": "Community art installations",
+    "author": "Manos Vrettos",
+    "timeAgo": "4h ago",
+    "status": "New",
+    "image": "trending.png",
+    "location": {
+      "latitude": 37.9700,
+      "longitude": 23.7289
+    }
+  },
+  {
+    "title": "Expansion of local library",
+    "author": "Helena Kostas",
+    "timeAgo": "6h ago",
+    "status": "Completed",
+    "image": "trending.png",
+    "location": {
+      "latitude": 37.9698,
+      "longitude": 23.7311
+    }
+  },
+  {
+    "title": "Solar energy panels installation",
+    "author": "Petros Alexiou",
+    "timeAgo": "3d ago",
+    "status": "In Progress",
+    "image": "trending.png",
+    "location": {
+      "latitude": 37.9758,
+      "longitude": 23.7294
+    }
+  },
+  {
+    "title": "New playground for children",
+    "author": "Anna Markou",
+    "timeAgo": "1w ago",
+    "status": "New",
+    "image": "trending.png",
+    "location": {
+      "latitude": 37.9740,
+      "longitude": 23.7333
+    }
+  }
+]

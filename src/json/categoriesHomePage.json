@@ -1,0 +1,32 @@
+[
+  {
+    "title": "NEWS",
+    "icon": "university",
+    "category": "News"
+  },
+  {
+    "title": "PROJECTS",
+    "icon": "building",
+    "category": "Projects"
+  },
+  {
+    "title": "PROCESSES",
+    "icon": "cogs",
+    "category": "Processes"
+  },
+  {
+    "title": "ASSEMBLIES",
+    "icon": "users",
+    "category": "Assemblies"
+  },
+  {
+    "title": "PROPOSALS",
+    "icon": "lightbulb-o",
+    "category": "Proposals"
+  },
+  {
+    "title": "REPORTS",
+    "icon": "pie-chart",
+    "category": "Reports"
+  }
+]

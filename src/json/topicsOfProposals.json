@@ -1,0 +1,67 @@
+[
+    {
+        "category": "Environment - Greenery",
+        "topics": [
+            "Tree planting",
+            "Park",
+            "Other"
+        ]
+    },
+    {
+        "category": "Green Transportation",
+        "topics": [
+            "Public Transportation",
+            "E-bicycle stations",
+            "Carpooling",
+            "Walking paths"
+        ]
+    },
+    {
+        "category": "Waste Management",
+        "topics": [
+            "Recycling bins",
+            "Composting",
+            "Waste reduction programs"
+        ]
+    },
+    {
+        "category": "Energy Efficiency",
+        "topics": [
+            "Solar panels",
+            "LED street lighting",
+            "Energy-efficient buildings"
+        ]
+    },
+    {
+        "category": "Water Conservation",
+        "topics": [
+            "Rainwater harvesting",
+            "Drip irrigation",
+            "Public water fountains"
+        ]
+    },
+    {
+        "category": "Urban Planning",
+        "topics": [
+            "Public parks",
+            "Community gardens",
+            "Bike lanes"
+        ]
+    },
+    {
+        "category": "Digital Infrastructure",
+        "topics": [
+            "Wi-Fi in public spaces",
+            "Smart traffic lights",
+            "Public charging stations"
+        ]
+    },
+    {
+        "category": "Public Safety",
+        "topics": [
+            "CCTV surveillance",
+            "Neighborhood watch programs",
+            "Street lighting"
+        ]
+    }
+]
