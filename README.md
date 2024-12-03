@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-The URBREATH mobile application is designed to enhance citizen participation and engagement in urban management processes. It integrates with the Decidim API to extract data while also relying on its own backend for additional local functionalities. Built with **React Native**, the app offers a seamless and responsive user experience on both iOS and Android devices. It empowers citizens to propose ideas, report issues, participate in polls, and interact with urban projects and processes in an interactive, location-based environment.
+The URBREATH mobile application is designed to enhance citizen participation and engagement in urban management processes. It integrates with the Decidim API to extract data while also relying on its own backend for additional local functionalities. Built with **React Native**, the app offers a seamless and responsive user experience on both iOS and Android devices. It empowers citizens to propose ideas, report issues, participate in polls, and interact with urban projects and processes in a location-based environment.
 
 ---
 
