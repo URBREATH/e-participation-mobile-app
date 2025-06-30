@@ -1,43 +1,27 @@
-# URBREATH Mobile Application - README
+# URBREATH Mobile Application
 
 ## **Overview**
 
 The URBREATH mobile application is designed to enhance citizen participation and engagement in urban management processes. It integrates with the Decidim API to extract data while also relying on its own backend for additional local functionalities. Built with **React Native**, the app offers a seamless and responsive user experience on both iOS and Android devices. It empowers citizens to propose ideas, report issues, participate in polls, and interact with urban projects and processes in a location-based environment.
 
----
-
-### **Why a Mobile App?**
-- **Increased Accessibility**: Users can engage with the platform anytime, anywhere, using just their smartphones.
-- **Enhanced Engagement**: Features like push notifications and personalized experiences encourage active participation.
-- **Real-Time Interaction**: Provides up-to-date information about urban processes, projects, and events.
-
-### **Why React Native?**
-- **Cross-Platform Development**: Single codebase for both iOS and Android devices.
-- **Performance**: Delivers smooth, responsive apps with a native feel.
-- **Advanced Features**: Supports functionalities like geolocation, notifications, and AR.
-
----
-
 ## **Core Functionalities**
 
 ### **Interaction with Decidim API**
-- `GET` participation processes, assemblies, and their components.
-- `POST` proposals, blogs, meetings, debates, and comments.
+- `GET` participation processes, assemblies, and their components
+- `POST` proposals, reports, surveys and comments.
 - `LOGIN` users, set and retrieve tokens.
 - `LOGOUT` users by deleting tokens.
-- `SIGN UP` new users and `POST` them in Decidim API.
+- `SIGN UP` new users with keycloak
 
 ### **Local Backend Integration**
-- **GET/POST** proposals and reports for custom workflows.
+- **GET/POST**  proposals, reports, projects and surveys
 
 ---
 
 ## **App Pages and Components**
 
 ### **Main Page**
-1. **Search Bar**: Allows users to search content by title or keyword.
-2. **NBS Categories**: Informative "burger button" menu for accessing NBS resources.
-3. **Main Menu**: Six core buttons, each representing a specific functionality:
+1. **Main Menu**: Six core buttons, each representing a specific functionality:
     - **News**: Displays the latest content (e.g., new processes, reports, proposals).
     - **Projects**: Lists urban projects with filtering options and on-map view support.
     - **Processes**: Fetches Decidim participation processes, allowing users to engage directly.
@@ -65,7 +49,6 @@ The **Assemblies** page uses the `fetchAssemblies` function to extract the follo
 - **Composition and Internal Organisation**: Describes how the assembly is structured.
 - **Participatory Scope and Structure**: Information on the assembly's geographical and administrative focus.
 - **Target**: Audience or group the assembly is addressing.
-- **Linked Participatory Spaces**: Connections with other participatory spaces or assemblies.
 - **Components**: List of components (e.g., proposals, blogs, meetings) within the assembly.
 
 ---
