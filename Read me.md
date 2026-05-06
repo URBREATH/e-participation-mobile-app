@@ -224,21 +224,8 @@ The app uses Google Maps extensively. You'll see maps when:
 Here's a simplified view of how all the pieces talk to each other:
 
 ```
-Your Phone (the app)
-    │
-    ├──→ URBREATH Backend Server
-    │       Stores: reports, surveys, proposals, photos, user locations
-    │       Database: MongoDB
-    │
-    ├──→ Eparticipation Web Application - based on Decidim platform
-    │       Provides: processes, assemblies, official proposals,
-    │                 debates, meetings, blogs, polls
-    │
-    ├──→ Keycloak (Login System)
-    │       Handles: sign-up, login, account management
-    │
-    └──→ NBS Registry (External Project Catalog)
-            Provides: Nature-Based Solutions project data
+<img width="594" height="305" alt="image" src="https://github.com/user-attachments/assets/2678c13a-4a55-4d41-ba29-47e506f7014a" />
+
 ```
 ### Entity-Relationship Diagram
 
