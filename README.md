@@ -279,7 +279,7 @@ The app can also receive over-the-air updates, meaning small fixes can be pushed
 
 ## Local Deployment
 
-URBREATH e-participation mobile app can either be provided as a complete service or its backend can be deployed locally using Docker. The setup requires configuring environment variables for the backend server, MongoDB, and connections to the external services (Web e-participation App based on Decidim, Keycloak, NBS Registry). For detailed deployment instructions and access to the required configuration, please contact the development team.
+URBREATH e-participation mobile app is a proprietary digital tool. Upon commercial agreement it can be provided either as a complete service (SaaS) or in a hybrid model where its backend can be deployed locally using Docker. The setup requires configuring environment variables for the backend server, MongoDB, and connections to the external services (Web e-participation App based on Decidim, Keycloak, NBS Registry). For detailed deployment instructions and access to the required configuration, please contact the development team.
 
 ---
 
