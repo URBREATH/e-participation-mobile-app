@@ -1,6 +1,6 @@
 # URBREATH e-participation mobile app— Plain Language Guide
 
-> **URBREATH e-participation mobile app** — A prototype native app designed to enhance citizen participation in commons. Currently developed for URBREATH project, it hosts its pilot cities (9 European cities) aims to empower citizens, giving them the space to have a say in making their neighborhoods greener and more sustainable while also be informed and collaborate on city's activities and everyday life.
+> **URBREATH e-participation mobile app** — A proprietary prototype native app designed to enhance citizen participation in commons. Currently developed for URBREATH project, it hosts its pilot cities (9 European cities) aims to empower citizens, giving them the space to have a say in making their neighborhoods greener and more sustainable while also be informed and collaborate on city's activities and everyday life.
 
 ---
 
