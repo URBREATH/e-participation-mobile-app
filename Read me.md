@@ -230,47 +230,8 @@ Here's a simplified view of how all the pieces talk to each other:
 ### Entity-Relationship Diagram
 
 ```
-┌──────────┐     ┌──────────────┐     ┌─────────────────────┐
-│  User    │     │   Image      │     │  SurveySubmission    │
-├──────────┤     ├──────────────┤     ├─────────────────────┤
-│ user_id  │◄────│ name (UUID)  │     │ userId ──────────┐  │
-│ location │     │ data (Buffer)│     │ surveyId ─────┐  │  │
-└──────────┘     │ contentType  │     │ title         │  │  │
-                 └──────┬───────┘     │ answers[]     │  │  │
-                        │             │ location      │  │  │
-          referenced by │             └───────────┬───┘  │  │
-                        │                         │      │  │
-    ┌───────────────────┼─────────────────────────┼──────┘  │
-    │                   │                         │         │
-┌───▼──────┐  ┌────────▼───┐  ┌──────────────┐  │         │
-│ Report   │  │ Proposal   │  │  Project      │  │         │
-├──────────┤  ├────────────┤  ├──────────────┤  │         │
-│ user_id  │  │ user_id    │  │ id           │  │         │
-│ username │  │ username   │  │ username     │  │         │
-│ loc{}    │  │ loc{}      │  │ loc{}        │  │         │
-│ topic    │  │ topic      │  │ topic        │  │         │
-│ desc     │  │ desc       │  │ desc         │  │         │
-│ image_   │  │ image_     │  │ image_name   │  │         │
-│  name ───┤  │  name ────┤  │ attachments[]│  │         │
-│ status   │  │ status     │  │ status       │  │         │
-│ location │  │ location   │  │ location     │  │         │
-│ likes[]  │  │ likes[]    │  │ likes[]      │  │         │
-│ comments│  │ comments[] │  │ comments[]   │  │         │
-│  []      │  │            │  │              │  │         │
-└──────────┘  └────────────┘  └──────────────┘  │         │
-                                                 │         │
-                                        ┌────────▼─────┐   │
-                                        │   Survey     │   │
-                                        ├──────────────┤   │
-                                        │ title        │◄──┘
-                                        │ description  │
-                                        │ deadline     │
-                                        │ questions[]  │
-                                        │  ├─ body     │
-                                        │  └─ options[]│
-                                        │ tos          │
-                                        │ location     │
-                                        └──────────────┘
+<img width="544" height="812" alt="image" src="https://github.com/user-attachments/assets/b940a3da-cedb-4c4a-9a16-866fb2bec16d" />
+
 
 ---
 
